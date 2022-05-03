@@ -9,13 +9,13 @@
 </head>
 <body>
 <form action="AddSubjectServlet" method="post">  
-Add Subject          <input type="text" name="Subject_name"/>    
+Add Subject          <input type="text" name="Subject_name" required/>    
 <input type="submit" value="Add Subject"/>  <br/><br/>
 </form>
 
 
 <form action="DeleteSubjectServlet" method="post">  
-Delete Subject       <input type="text" name="Subject_ID"/>  
+Subject ID       <input type="text" name="Subject_ID" pattern="\d*" required/>  
 <input type="submit" value="Delete Subject"/>  <br/><br/>
 </form>
 <form action="ViewSubject.jsp" method="post">    

@@ -8,17 +8,17 @@
 </head>
 <body>
 <form action="AddTeacherServlet" method="post">  
-Add Teacher          <input type="text" name="Teacher_name"/>    
+Add Teacher          <input type="text" name="Teacher_name" required/>    
 <input type="submit" value="Add Teacher"/>  <br/><br/>
 </form>
 
 
-<form action="DeleteTeacherServlet" method="post">  
-Delete Teacher       <input type="text" name="Teacher_ID"/>  
-<input type="submit" value="Delete Teacher"/>  <br/><br/>
+<form action="DeleteTeacherServlet" method="post" >  
+Teacher ID       <input type="text" name="Teacher_ID"  pattern="\d*"required/>  
+<input type="submit" value="Delete Teacher" required/>  <br/><br/>
 </form>
 <form action="ViewTeacher.jsp" method="post">    
-Teacher List         <input type="submit" value="View Teacher List"/>  
+Teacher List         <input type="submit" value="View Teacher List" required/>  
 </form>
 
 </body>

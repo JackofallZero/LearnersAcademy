@@ -8,13 +8,13 @@
 </head>
 <body>
 <form action="AddClassServlet" method="post">  
-Add Class          <input type="text" name="Class_name"/>    
+Add Class          <input type="text" name="Class_name" required/>    
 <input type="submit" value="Add Class"/>  <br/><br/>
 </form>
 
 
 <form action="DeleteClassServlet" method="post">  
-Delete Class       <input type="text" name="Class_name"/>  
+Class ID       <input type="text" name="Class_name "pattern="\d*" required/>  
 <input type="submit" value="Delete Class"/>  <br/><br/>
 </form>
 <form action="ViewClass.jsp" method="post">    

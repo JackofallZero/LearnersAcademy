@@ -11,13 +11,13 @@
 <a href="TeacherMaster.jsp">View Teacher Master List</a></br>
 <a href="ClassMaster.jsp">View Class Master List</a></br>
 <form action="AssignTeacher" method="post">
-Teacher ID : <input type ="text" name="Teacher_ID">
-Class ID : <input type ="text" name="Class_ID">
+Teacher ID : <input type ="text" name="Teacher_ID" pattern="\d*" required>
+Class ID : <input type ="text" name="Class_ID" pattern="\d*" required>
 <input type="submit" value="Assign Teacher">
 </form>
 <form action="AssignSubject" method="post">
-Subject ID : <input type ="text" name="Subject_ID">
-Class ID : <input type ="text" name="Class_ID">
+Subject ID : <input type ="text" name="Subject_ID" pattern="\d*" required>
+Class ID : <input type ="text" name="Class_ID" pattern="\d*" required>
 <input type="submit" value="Assign Subject">
 </form>
 <a href="StudentMaster.jsp">Student Master</a>
