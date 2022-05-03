@@ -20,7 +20,6 @@ Subject ID : <input type ="text" name="Subject_ID">
 Class ID : <input type ="text" name="Class_ID">
 <input type="submit" value="Assign Subject">
 </form>
-<a href="AssignTeacher.jsp">Assign Teacher</a></br>
 <a href="StudentMaster.jsp">Student Master</a>
 </head>
 <body>
