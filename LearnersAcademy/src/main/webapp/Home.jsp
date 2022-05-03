@@ -15,8 +15,8 @@
   
  <br/>  
 <form action="LoginProcess.jsp" method="post">  
-Username:<input type="text" name="username"/><br/><br/>  
-Password:<input type="password" name="password"/><br/><br/>  
+Username:<input type="text" name="username"required/><br/><br/>  
+Password:<input type="password" name="password"required/><br/><br/>  
 <input type="submit" value="Login"/>  
 </form>  
 </body>

@@ -8,14 +8,14 @@
 </head>
 <body>
 <form action="AddStudentServlet" method="post">  
-Add Student          <input type="text" name="Student_name"/>
-Student Class <input type = "text" name ="Class_ID"/>    
+Add Student          <input type="text" name="Student_name" required/>
+Student Class <input type = "text" name ="Class_ID" pattern="\d*" required/>    
 <input type="submit" value="Add Student"/>  <br/><br/>
 </form>
 
 
 <form action="DeleteStudentServlet" method="post">  
-Delete Student       <input type="text" name="Roll_No"/>  
+Student ID       <input type="text" name="Roll_No" pattern="\d*"required>
 <input type="submit" value="Delete Student"/>  <br/><br/>
 </form>
 <form action="ViewStudents.jsp" method="post">    
